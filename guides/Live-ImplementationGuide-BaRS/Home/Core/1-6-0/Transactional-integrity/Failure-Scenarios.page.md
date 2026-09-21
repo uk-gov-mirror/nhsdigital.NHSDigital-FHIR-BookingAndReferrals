@@ -6,7 +6,7 @@ topic: core-TIFailureScenarios-1.6.0
 
 When a message is received, the X-Request-ID and X-Correlation-ID header values are stored appropriately. In this example, this occurs ahead of the message being processed but after any access control is applied by means of the other available headers.
 
-If a message fails due to a message with the same header ids having already been processed, the response must be a 409, REC_CONFLICT with an OperationOutcome.issue.code of 'duplicate' as seen below.
+If a message fails due to a message with the same header ids having already been processed, the response must be a 409, REC_CONFLICT with an OperationOutcome.issue.code of 'duplicate' as seen below. In the event that the request resulted in a new unique identifier on the receiver system, the receiver must return the reference ID as part of the OperationOutcome.issue.diagnostics.
 
 ![BaRS FHIR API end-to-end process](https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/TransactionIntegrity/Initial-failure-scenario-1.0.0.svg)
 
@@ -114,7 +114,7 @@ If a message fails due to a message with the same header ids having already been
 
 	      },
 
-	      "diagnostics": "This message has already been received and processed"
+	      "diagnostics": "This message has already been received and processed. Reference ID: ID-12345"
 
 	    }
 
@@ -124,7 +124,7 @@ If a message fails due to a message with the same header ids having already been
 
 </json>
 
-In the event of a timeout, a retry attempt is made after a suitable amount of time to ensure the message was received. The same X-Request-ID and X-Correlation-ID must be used. Should a 409 REC_CONFLICT response be received with a OperationOutcome.issue.code of "duplicate", then this can be used as confirmation that the message was received.
+In the event of a timeout, a retry attempt should be made to ensure the message was received. Senders should wait a suitable amount of time before attempting a retry to allow the receiver to finish processing the original message. The same X-Request-ID and X-Correlation-ID must be used. Should a 409 REC_CONFLICT response be received with a OperationOutcome.issue.code of "duplicate", then this can be used as confirmation that the message was received. In the event that the request resulted in a new unique identifier on the receiver system, the receiver must return the reference ID as part of the OperationOutcome.issue.diagnostics.
 
 ![BaRS FHIR API end-to-end process](https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/TransactionIntegrity/Timeout-Failure-Scenario-1.0.0.svg)
 
@@ -231,7 +231,7 @@ In the event of a timeout, a retry attempt is made after a suitable amount of ti
 
 	      },
 
-	      "diagnostics": "This message has already been received and processed"
+	      "diagnostics": "This message has already been received and processed. Reference ID: ID-12345"
 
 	    }
 
@@ -241,7 +241,7 @@ In the event of a timeout, a retry attempt is made after a suitable amount of ti
 
 </json>
 
-If the processing of a message is not completed prior to the initial retry, the receiver must respond with a 425 REC_TOO_EARLY response, to indicate the initial message is still processing. The receipt is then unconfirmed and the sender can retry after a suitable amount of time until they receive a desired response.
+If the processing of a message is not completed prior to the initial retry, the receiver must respond with a 425 REC_TOO_EARLY response, to indicate the initial message is still processing. The receipt is then unconfirmed and the sender should retry until they receive a desired response. Senders must wait a suitable amount of time in between retry attempts to provide time for the receiver to finish processing the original message. 
 
 ![BaRS FHIR API end-to-end process](https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/TransactionIntegrity/Initial-failure-scenario-solution-1.0.0.svg)
 
@@ -404,7 +404,7 @@ If the processing of a message is not completed prior to the initial retry, the 
 
 	      },
 
-	      "diagnostics": "This message has already been received and processed"
+	      "diagnostics": "This message has already been received and processed. Reference ID: ID-12345"
 
 	    }
 
