@@ -26,7 +26,7 @@ resource returned:
 		{
 			"coding": [
 				{
-					"system": "http://snomed.info/sct",
+					"system": "https://termbrowser.nhs.uk",
 					"code": "165342003",
 					"display": "Patient declined laboratory test (situation)"
 				}
@@ -63,7 +63,7 @@ Request Body
 		{
 			"coding": [
 				{
-					"system": "http://snomed.info/sct",
+					"system": "https://termbrowser.nhs.uk",
 					"code": "165332000",
 					"display": "Laboratory test requested (situation)"
 				}

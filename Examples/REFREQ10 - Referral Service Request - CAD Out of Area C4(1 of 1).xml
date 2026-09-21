@@ -423,7 +423,7 @@ No follow up update messages expected.
                 </organization>
                 <specialty>
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -622,14 +622,14 @@ No follow up update messages expected.
                 <code>
                     <!--       If populated then use SDS code       -->
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="224608005" />
                         <display value="Administrative healthcare staff" />
                     </coding>
                 </code>
                 <specialty>
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -655,7 +655,7 @@ No follow up update messages expected.
                 </clinicalStatus>
                 <category>
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="33962009" />
                         <display value="Presenting complaint" />
                     </coding>
@@ -743,14 +743,14 @@ No follow up update messages expected.
                     <required value="true" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="78064003" />
                             <display value="Breathing (observable entity)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="1023001" />
                             <display value="Not Breathing (finding)" />
                         </valueCoding>
@@ -771,14 +771,14 @@ No follow up update messages expected.
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="428913001" />
                             <display value="No loss of consciousness (situation)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="419045004" />
                             <display value="Loss of consciousness (finding)" />
                         </valueCoding>
@@ -799,14 +799,14 @@ No follow up update messages expected.
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="248573009" />
                             <display value="Noisy respiration (finding)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="48348007" />
                             <display value="Normal breath sounds (finding)" />
                         </valueCoding>
@@ -827,14 +827,14 @@ No follow up update messages expected.
 					<required value="false"/>
 					<answerOption>
 						<valueCoding>
-							<system value="http://snomed.info/sct"/>
+							<system value="https://termbrowser.nhs.uk"/>
 							<code value="230145002"/>
 							<display value="Difficulty breathing (finding)"/>
 						</valueCoding>
 					</answerOption>
 					<answerOption>
 						<valueCoding>
-							<system value="http://snomed.info/sct"/>
+							<system value="https://termbrowser.nhs.uk"/>
 							<code value="20716004"/>
 							<display value="Respiratory rate normal (finding)"/>
 						</valueCoding>
@@ -878,7 +878,7 @@ No follow up update messages expected.
                     <text value="Is the patient breathing?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="78064003" />
                             <display value="Breathing (observable entity)" />
                         </valueCoding>
@@ -889,7 +889,7 @@ No follow up update messages expected.
                     <text value="Is the patient awake (conscious)?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="428913001" />
                             <display value="No loss of consciousness (situation)" />
                         </valueCoding>
@@ -900,7 +900,7 @@ No follow up update messages expected.
                     <text value="Is the patient breathing?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="48348007" />
                             <display value="Normal breath sounds (finding)" />
                         </valueCoding>
