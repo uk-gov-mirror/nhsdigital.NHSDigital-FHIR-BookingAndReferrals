@@ -79,7 +79,7 @@ Below is a simplified example of how how to handle the Transaction Integrity HTT
           }
         ]
       },
-      "diagnostics": "This message has been recognised as having already been successfully processed."
+      "diagnostics": "This message has been recognised as having already been successfully processed. Reference ID: ID-12345"
     }
   ]
 }
@@ -198,7 +198,7 @@ if (Message == "update")
           }
         ]
       },
-      "diagnostics": "Information received has been updated locally and may cause loss, or presents a conflict, of data"
+      "diagnostics": "Information received has been updated locally and may cause loss, or presents a conflict, of data. Reference ID: ID-12345"
     }
   ]
 }
