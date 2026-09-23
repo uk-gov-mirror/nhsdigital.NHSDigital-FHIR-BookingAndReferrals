@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-We recognise that some solutions may be delivered using integration systems. To ensure the operational value of deploying a BaRS compliant solution and the spirit of the standard [HIMSS interoperability level 4](https://www.himss.org/resources/interoperability-healthcare "HIMSS interoperability level 4") is adhered to, we have developed a set of principles that integration systems should abide by.
+We recognise that some solutions may be delivered using integration systems. To ensure the operational value of deploying a BaRS compliant solution and the spirit of the standard [HIMSS interoperability level 4](https://keystone.himss.org/resources/interoperability-healthcare "HIMSS interoperability level 4") is adhered to, we have developed a set of principles that integration systems should abide by.
 
 In the principles the following terms are referenced:
 

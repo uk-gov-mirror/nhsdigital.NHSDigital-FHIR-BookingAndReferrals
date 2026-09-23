@@ -4,7 +4,7 @@
     <intent value="order" />
     <code>
         <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="1577041000000109" />
             <display value="Community Pharmacist Consultation Service for minor illness (procedure)" />
         </coding>

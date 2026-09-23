@@ -22,14 +22,14 @@
 		<required value="true"/>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="78064003"/>
 				<display value="Breathing"/>
 			</valueCoding>
 		</answerOption>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="1023001"/>
 				<display value="Not Breathing"/>
 			</valueCoding>
@@ -50,14 +50,14 @@
 		<required value="false"/>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="428913001"/>
 				<display value="No loss of consciousness (situation)"/>
 			</valueCoding>
 		</answerOption>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="419045004"/>
 				<display value="Loss of consciousness (finding)"/>
 			</valueCoding>
@@ -78,14 +78,14 @@
 		<required value="false"/>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="248573009"/>
 				<display value="Noisy respiration (finding)"/>
 			</valueCoding>
 		</answerOption>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="48348007"/>
 				<display value="Normal breath sounds (finding)"/>
 			</valueCoding>
@@ -106,14 +106,14 @@
 		<required value="false"/>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="230145002"/>
 				<display value="Difficulty breathing (finding)"/>
 			</valueCoding>
 		</answerOption>
 		<answerOption>
 			<valueCoding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://termbrowser.nhs.uk"/>
 				<code value="20716004"/>
 				<display value="Respiratory rate normal (finding)"/>
 			</valueCoding>

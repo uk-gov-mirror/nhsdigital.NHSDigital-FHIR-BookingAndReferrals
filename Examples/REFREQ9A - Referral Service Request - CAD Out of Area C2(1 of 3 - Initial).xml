@@ -470,14 +470,14 @@ Message 1 - Intital Message
                 <code>
                     <!--       If populated then use SDS code       -->
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="224608005" />
                         <display value="Administrative healthcare staff" />
                     </coding>
                 </code>
                 <specialty>
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -502,7 +502,7 @@ Message 1 - Intital Message
                 </clinicalStatus>
                 <category>
                     <coding>
-                        <system value="http://snomed.info/sct" />
+                        <system value="https://termbrowser.nhs.uk" />
                         <code value="33962009" />
                         <display value="Presenting complaint" />
                     </coding>
@@ -761,14 +761,14 @@ Message 1 - Intital Message
                     <required value="true" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="78064003" />
                             <display value="Breathing (observable entity)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="1023001" />
                             <display value="Not Breathing (finding)" />
                         </valueCoding>
@@ -789,14 +789,14 @@ Message 1 - Intital Message
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="428913001" />
                             <display value="No loss of consciousness (situation)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="419045004" />
                             <display value="Loss of consciousness (finding)" />
                         </valueCoding>
@@ -817,14 +817,14 @@ Message 1 - Intital Message
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="248573009" />
                             <display value="Noisy respiration (finding)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="48348007" />
                             <display value="Normal breath sounds (finding)" />
                         </valueCoding>
@@ -867,7 +867,7 @@ Message 1 - Intital Message
                     <text value="Is the patient breathing?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="78064003" />
                             <display value="Breathing (observable entity)" />
                         </valueCoding>
@@ -878,7 +878,7 @@ Message 1 - Intital Message
                     <text value="Is the patient awake (conscious)?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="428913001" />
                             <display value="No loss of consciousness (situation)" />
                         </valueCoding>
@@ -889,7 +889,7 @@ Message 1 - Intital Message
                     <text value="Is the patient breathing?" />
                     <answer>
                         <valueCoding>
-                            <system value="http://snomed.info/sct" />
+                            <system value="https://termbrowser.nhs.uk" />
                             <code value="48348007" />
                             <display value="Normal breath sounds (finding)" />
                         </valueCoding>

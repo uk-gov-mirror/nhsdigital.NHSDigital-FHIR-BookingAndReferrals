@@ -388,14 +388,14 @@
         <code>
           <!--    If populated then use SDS code    -->
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
         </code>
         <specialty>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
