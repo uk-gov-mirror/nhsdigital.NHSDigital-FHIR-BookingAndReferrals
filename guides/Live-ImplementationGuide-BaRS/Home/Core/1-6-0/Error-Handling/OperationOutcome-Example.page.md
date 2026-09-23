@@ -46,7 +46,7 @@ topic: core-ErrorHandling-OpOut-1.6.0
 
 	        ]
 
-	      },
+      },
 
       "diagnostics": "BaRS was unable to process the request: <further diagnostics information, error message/error text>"
 
