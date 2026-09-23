@@ -1,5 +1,41 @@
 ## {{page-title}}
 
+<div class="bars-big-expander">
+<div class="bars-big-expander-entry" id="v1.12.0">
+
+
+Product Link           | Version | Handle  | Phase    | State           | Release Date | Stability  | Change Log Link
+-----------------------|---------|---------|----------|-----------------|--------------|------------|-----------------
+Implementation Guide   | 1.12.0   | v1      | Live     | Current Release | 16/07/2026 | Stable     |{{pagelink:trn-General}}
+[FHIR Package](https://simplifier.net/packages/uk.nhsdigital.bars.r4/1.41.0) | 1.41.0| v1      | Live     | Current Release | 16/07/2026  | Stable     |
+{{pagelink:design-core-1.5.0, text:BaRS Core}}              | 1.5.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-core, text: BaRS Core Change Log}}
+[API Specification](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.5.0)    | 1.5.0   | v1      | Live     | Current Release | 16/07/2026  | Stable     |{{pagelink:trn-api}}
+{{pagelink: build-testing, text: TKW}}  | 1.0.21   | v1      | Live     | Current Release | 12/11/2025   | Stable     |{{pagelink:trn-tkw}}
+{{pagelink:application1, text:BaRS-APP1}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app1,text:BaRS APP1 Change Log}}
+{{pagelink:application2, text:BaRS-APP2}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app2,text:BaRS APP2 Change Log}}
+{{pagelink:application3, text:BaRS-APP3}}   | 2.0.0   | v1      | Live     | Current Release | 12/11/2025   | Stable |{{pagelink:trn-app3,text:BaRS APP3 Change Log}}
+{{pagelink:application4, text:BaRS-APP4}}   | 2.0.0   | v1      | Live     | Current Release | 12/11/2025   | Stable |{{pagelink:trn-app4,text:BaRS APP4 Change Log}}
+{{pagelink:application5, text:BaRS-APP5}}   | 1.2.0   | v1      | Live     | Current Release | 26/03/2026   | Stable |{{pagelink:trn-app5,text:BaRS APP5 Change Log}}
+{{pagelink:application6, text:BaRS-APP6}}   | 1.0.0-beta.8 | beta      |      | Current Release | 19/05/2026   | Pre-Release |{{pagelink:trn-app6,text:BaRS APP6 Change Log}}
+{{pagelink:application7, text:BaRS-APP7}}   | 1.0.0-alpha.4 | alpha      |      | Current Release | 02/07/2025  | Pre-Release |{{pagelink:trn-app7,text:BaRS APP7 Change Log}}
+{{pagelink:application8, text:BaRS-APP8}}   | 1.0.0-alpha.3 | alpha      |      | Current Release | 16/07/2026  | Pre-Release |{{pagelink:trn-app8,text:BaRS APP8 Change Log}}
+
+
+
+### Overview of the release
+
+Release 1.12.0 of the BaRS Implementation Guide is a minor release including an additional optional FHIR resource for Related Person in the payloads for Applications 1 and 2. Message definitions and examples in Simplifier are updated to support this change. Following supplier feedback, use case category codes have been updated to support senders in implementing the change effectively. Minor changes are applied to the implementation guidance for Application 8 following consultation at alpha stage. BaRS Core version is uplifted to 1.5.0 in line with an update to the BaRS FHIR API OAS file.  
+ 
+Also included in this release are minor changes and bug fixes and corrections throughout the guide.
+ 
+A clinical safety assessment of the scope of this release has determined that it has not significantly changed the clinical safety profile of the BaRS. No new hazards have been identified in this release. The latest version of the BaRS clinical safety case and hazard log can be downloaded from the <a href= "https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/onboarding-support-information#hazard-log-and-clinical-safety-case-report-cscr-" target="_blank"> BaRS FHIR API onboarding support information page </a>.
+
+</div>
+</div>
+
+<hr>
+<br>
+
 <div class="bars-blg-expander">
 <div class="bars-blg-expander-entry" id="v1.11.1">
 
@@ -31,6 +67,7 @@ A clinical safety assessment of the scope of this release has determined that it
 
 </div>
 </div>
+
 <hr>
 <br>
 

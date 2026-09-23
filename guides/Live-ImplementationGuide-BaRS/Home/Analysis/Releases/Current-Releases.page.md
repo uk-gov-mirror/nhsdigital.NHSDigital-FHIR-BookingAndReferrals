@@ -1,11 +1,11 @@
-## Current Release 1.12.0
+## Current Release 1.12.1
 
 Product Link           | Version | Handle  | Phase    | State           | Release Date | Stability  | Change Log Link
 -----------------------|---------|---------|----------|-----------------|--------------|------------|-----------------
 Implementation Guide   | 1.12.0   | v1      | Live     | Current Release | 16/07/2026 | Stable     |{{pagelink:trn-General}}
-[FHIR Package](https://simplifier.net/packages/uk.nhsdigital.bars.r4/1.41.0) | 1.41.0| v1      | Live     | Current Release | 16/07/2026  | Stable     |
-{{pagelink:design-core-1.5.0, text:BaRS Core}}              | 1.5.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-core, text: BaRS Core Change Log}}
-[API Specification](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.5.0)    | 1.5.0   | v1      | Live     | Current Release | 16/07/2026  | Stable     |{{pagelink:trn-api}}
+[FHIR Package](https://simplifier.net/packages/uk.nhsdigital.bars.r4/1.42.0) | 1.42.0| v1      | Live     | Current Release | 16/07/2026  | Stable     |
+{{pagelink:design-core-1.5.0, text:BaRS Core}}              | 1.6.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-core, text: BaRS Core Change Log}}
+[API Specification](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.5.0)    | 1.6.0   | v1      | Live     | Current Release | 16/07/2026  | Stable     |{{pagelink:trn-api}}
 {{pagelink: build-testing, text: TKW}}  | 1.0.21   | v1      | Live     | Current Release | 12/11/2025   | Stable     |{{pagelink:trn-tkw}}
 {{pagelink:application1, text:BaRS-APP1}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app1,text:BaRS APP1 Change Log}}
 {{pagelink:application2, text:BaRS-APP2}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app2,text:BaRS APP2 Change Log}}
@@ -20,9 +20,15 @@ Implementation Guide   | 1.12.0   | v1      | Live     | Current Release | 16/07
 
 ### Overview of the release
 
-Release 1.12.0 of the BaRS Implementation Guide is a minor release including an additional optional FHIR resource for Related Person in the payloads for Applications 1 and 2. Message definitions and examples in Simplifier are updated to support this change. Following supplier feedback, use case category codes have been updated to support senders in implementing the change effectively. Minor changes are applied to the implementation guidance for Application 8 following consultation at alpha stage. BaRS Core version is uplifted to 1.5.0 in line with an update to the BaRS FHIR API OAS file.  
- 
-Also included in this release are minor changes and bug fixes and corrections throughout the guide.
+Release 1.12.1 of the BaRS Implementation Guide includes updates and clarifications to guidance across the standard.
+ 
+The assurance guidance has been revised to remove the fixed “two to four weeks” timeframe. The revised guidance explains that assurance timescales depend on supplier readiness, the completeness and quality of the submission, requests for further information, required resubmissions and the resolution of issues identified during assurance.
+ 
+Application 5 medication and allergy requirements have been clarified. References to “novel” medication and allergies have been replaced with wording that identifies medication administered or prescribed, and new allergies established, during the latest assessment. The MedicationStatement guidance now makes clear that the resource is used to carry new medication prescribed during the encounter and SHOULD NOT be used to carry medication history obtained from external sources.
+ 
+The Core and Application change logs have been improved to distinguish Change Type from supplier Impact. This separates classifications such as Addition and Correction from information explaining what suppliers need to do as a result of a change.
+ 
+Also included in this release are a correction to the Sentinel Element guidance for the Get Referral HTTP 503 test, corrections to external links, an update to the NHS England logo asset used by the Implementation Guide, and other minor bug fixes and corrections throughout the guide.
  
 A clinical safety assessment of the scope of this release has determined that it has not significantly changed the clinical safety profile of the BaRS. No new hazards have been identified in this release. The latest version of the BaRS clinical safety case and hazard log can be downloaded from the <a href= "https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/onboarding-support-information#hazard-log-and-clinical-safety-case-report-cscr-" target="_blank"> BaRS FHIR API onboarding support information page </a>.
 
