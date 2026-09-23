@@ -17,7 +17,7 @@ When a request is received against the $process-message endpoint, the MessageHea
 
 The Receiver interprets the request, engages the processing and synchronously feeds back a response.
 
-When processing the body (the FHIR bundle or payload) of the request, the Receiver can implement business logic, determining the type of payload and whether a request is valid or not, by using the guidance under the payload sections of each Application. This guidance stiplates the business requirement of each element of the payload, allowing a Receiver to determine elements which are mandated, required, optional or forbidden. The 'Necessity' column, of the tables within each Application payload section, indicates these buisness level requirements and aligns with defintions under [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+When processing the body (the FHIR bundle or payload) of the request, the Receiver can implement business logic, determining the type of payload and whether a request is valid or not, by using the guidance under the payload sections of each Application. This guidance stipulates the business requirement of each element of the payload, allowing a Receiver to determine elements which are mandated, required, optional or forbidden. The 'Necessity' column, of the tables within each Application payload section, indicates these business level requirements and aligns with definitions under [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 Please see the {{pagelink:Core-StandardPattern-1.6.0, text: Standard Patterns}} for generic guidance for processing messages.
 

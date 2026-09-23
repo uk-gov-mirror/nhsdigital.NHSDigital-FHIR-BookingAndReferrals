@@ -3,7 +3,7 @@ Message definition includes only one additional parameter and therefore there ar
 
 ### Rules
 * The context query parameter must be present.
-    * For current use cases this will always match the value in the NHSD-Target-Identifier header. This could could not always be the case in future.
+    * For current use cases this will always match the value in the NHSD-Target-Identifier header. This could not always be the case in future.
 
 ### Interactions
 
