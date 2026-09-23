@@ -6,9 +6,9 @@ topic: core-StandardPattern-appointment-update-1.3.1
 
 Steps to update:
 
-* Perform a [GET](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.3.0#get-/Appointment/-id-) operation using the .id of the appointment to /Appointment/\{id\}. Alternatively, if the .id is not known, a search of the Registry can be undertaken following the {{pagelink:core-StandardPattern-document-reference-Sender-1.3.1, text: Document Reference Standard Pattern - Sender}}. NB: If a match cannot be obtained using this method the process of updating must be performed manually
+* Perform a [GET](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.4.1#get-/Appointment/-id-) operation using the .id of the appointment to /Appointment/\{id\}. Alternatively, if the .id is not known, a search of the Registry can be undertaken following the {{pagelink:core-StandardPattern-document-reference-Sender-1.3.1, text: Document Reference Standard Pattern - Sender}}. NB: If a match cannot be obtained using this method the process of updating must be performed manually
 * Update the Appointment resource as required. There is only currently support to alter .status and .reasonCode. NB: The .slot element of the resource must not be updated, if an alternative slot is required either the {{pagelink:core-StandardPattern-appointment-reschedule-1.3.1, text:Reschedule}} or {{pagelink:core-StandardPattern-appointment-rebook-1.3.1, text:Rebook}} processes must be followed
-* Perform a [PUT](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.3.0#put-/Appointment/-id-) operation using the id of the appointment to /Appointment/\{id\}
+* Perform a [PUT](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.4.1#put-/Appointment/-id-) operation using the id of the appointment to /Appointment/\{id\}
 
 resource returned:
 ```json
@@ -26,7 +26,7 @@ resource returned:
 		{
 			"coding": [
 				{
-					"system": "http://snomed.info/sct",
+					"system": "https://termbrowser.nhs.uk",
 					"code": "165342003",
 					"display": "Patient declined laboratory test (situation)"
 				}
@@ -63,7 +63,7 @@ Request Body
 		{
 			"coding": [
 				{
-					"system": "http://snomed.info/sct",
+					"system": "https://termbrowser.nhs.uk",
 					"code": "165332000",
 					"display": "Laboratory test requested (situation)"
 				}

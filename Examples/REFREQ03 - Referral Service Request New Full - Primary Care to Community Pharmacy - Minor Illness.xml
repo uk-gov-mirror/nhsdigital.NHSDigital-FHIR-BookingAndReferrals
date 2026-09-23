@@ -193,7 +193,7 @@
         <intent value="order" />
         <code>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="2140231000000104" />
             <display value="Referral to Community Pharmacy Pharmacy First Service (procedure)" />
           </coding>
@@ -226,7 +226,7 @@
         </verificationStatus>
         <category>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="33962009" />
             <display value="Presenting complaint" />
           </coding>
@@ -390,7 +390,7 @@
         </organization>
         <specialty>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
@@ -522,14 +522,14 @@
         </organization>
         <code>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
         </code>
         <specialty>
           <coding>
-            <system value="http://snomed.info/sct" />
+            <system value="https://termbrowser.nhs.uk" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>

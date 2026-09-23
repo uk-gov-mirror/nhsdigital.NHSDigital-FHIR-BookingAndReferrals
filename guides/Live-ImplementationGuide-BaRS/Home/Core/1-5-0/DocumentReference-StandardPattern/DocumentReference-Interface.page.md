@@ -39,7 +39,7 @@ All Endpoints will use the existing Access Control Headers and Transaction Integ
 | /DocumentReference      | query | subject:identifier   | https://fhir.nhs.uk/Id/nhs-number|4409815415        | Filter by Patient                       | Y         |
 | /DocumentReference      | query | custodian:identifier | https://fhir.nhs.uk/Id/ods-organization-code|Y05868 | Filter by custodian (ODS)               | N         |
 | /DocumentReference      | query | next-page-token      | -                                                   | retrieve next set of 20 records         | N         |
-| /DocumentReference      | query | type                 | http://snomed.info/sct|736253002                    | Filter by Appointment or ServiceRequest | N         |
+| /DocumentReference      | query | type                 | https://termbrowser.nhs.uk|736253002                    | Filter by Appointment or ServiceRequest | N         |
 | /DocumentReference/[id] | path  | [ id ]               |                                                     | Specific Document Reference Id.         | Y         |
 
 ## Payload
