@@ -540,14 +540,14 @@
         <code>
           <!--    If populated then use SDS code    -->
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
         </code>
         <specialty>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
@@ -567,7 +567,7 @@
         <status value="final" />
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="271594007" />
             <display value="Syncope (disorder)" />
           </coding>

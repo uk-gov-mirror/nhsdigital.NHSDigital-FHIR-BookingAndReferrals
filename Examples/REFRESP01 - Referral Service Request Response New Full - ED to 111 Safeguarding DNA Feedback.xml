@@ -503,14 +503,14 @@
         </organization>
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
         </code>
         <specialty>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
@@ -619,14 +619,14 @@
         <status value="final" />
         <category>
           <coding>
-            <system value="https://termbrowser.nhs.uk??" />
+            <system value="http://snomed.info/sct??" />
             <code value="PathwaysAssessment" />
             <display value="Pathway Assessment" />
           </coding>
         </category>
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk??" />
+            <system value="http://snomed.info/sct??" />
             <code value="ClinicalNarrative" />
             <display value="Clinical Narrative" />
           </coding>
@@ -660,7 +660,7 @@
         <status value="final" />
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk??" />
+            <system value="http://snomed.info/sct??" />
             <code value="LivesAlone" />
             <display value="Lives Alone" />
           </coding>
@@ -716,7 +716,7 @@
         <status value="final" />
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk??" />
+            <system value="http://snomed.info/sct??" />
             <code value="Symptoms" />
             <display value="Patient Reported Symptoms" />
           </coding>
@@ -748,7 +748,7 @@
         <status value="final" />
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk??" />
+            <system value="http://snomed.info/sct??" />
             <code value="ExpectationWishes" />
             <display value="Expectations and wishes" />
           </coding>

@@ -28,7 +28,7 @@
     <text value="Is the patient breathing?" />
     <answer>
       <valueCoding>
-        <system value="https://termbrowser.nhs.uk" />
+        <system value="http://snomed.info/sct" />
         <code value="78064003" />
         <display value="Breathing" />
       </valueCoding>
@@ -39,7 +39,7 @@
     <text value="Is the patient awake (conscious)?" />
     <answer>
       <valueCoding>
-        <system value="https://termbrowser.nhs.uk" />
+        <system value="http://snomed.info/sct" />
         <code value="428913001" />
         <display value="No loss of consciousness (situation)" />
       </valueCoding>
@@ -50,7 +50,7 @@
     <text value="Is the patient breathing?" />
     <answer>
       <valueCoding>
-        <system value="https://termbrowser.nhs.uk" />
+        <system value="http://snomed.info/sct" />
         <code value="248573009" />
         <display value="Noisy respiration (finding)" />
       </valueCoding>
