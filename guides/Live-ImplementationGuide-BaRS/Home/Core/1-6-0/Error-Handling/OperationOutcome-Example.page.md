@@ -48,7 +48,7 @@ topic: core-ErrorHandling-OpOut-1.6.0
 
 	      },
 
-	      "diagnostics": "BaRS encountered a conflict: <further diagnostics information, error message/error text>"
+      "diagnostics": "BaRS was unable to process the request: <further diagnostics information, error message/error text>"
 
 	    }
 
