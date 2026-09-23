@@ -525,7 +525,7 @@ Message 3 - Second update
                 </organization>
                 <specialty>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -743,14 +743,14 @@ Message 3 - Second update
                 <code>
                     <!--       If populated then use SDS code       -->
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="224608005" />
                         <display value="Administrative healthcare staff" />
                     </coding>
                 </code>
                 <specialty>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -771,7 +771,7 @@ Message 3 - Second update
                 <status value="final" />
                 <code>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="6155003" />
                         <display value=" Arrested (qualifier value)" />
                     </coding>
@@ -801,7 +801,7 @@ Message 3 - Second update
                 </clinicalStatus>
                 <category>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="33962009" />
                         <display value="Presenting complaint" />
                     </coding>
@@ -1063,14 +1063,14 @@ Message 3 - Second update
                     <required value="true" />
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="78064003" />
                             <display value="Breathing (observable entity)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="1023001" />
                             <display value="Not Breathing (finding)" />
                         </valueCoding>
@@ -1091,14 +1091,14 @@ Message 3 - Second update
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="428913001" />
                             <display value="No loss of consciousness (situation)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="419045004" />
                             <display value="Loss of consciousness (finding)" />
                         </valueCoding>
@@ -1119,14 +1119,14 @@ Message 3 - Second update
                     <required value="false" />
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="248573009" />
                             <display value="Noisy respiration (finding)" />
                         </valueCoding>
                     </answerOption>
                     <answerOption>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="48348007" />
                             <display value="Normal breath sounds (finding)" />
                         </valueCoding>
@@ -1170,7 +1170,7 @@ Message 3 - Second update
                     <text value="Is the patient breathing?" />
                     <answer>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="1023001" />
                             <display value="Not Breathing (finding)" />
                         </valueCoding>
@@ -1181,7 +1181,7 @@ Message 3 - Second update
                     <text value="Is the patient awake (conscious)?" />
                     <answer>
                         <valueCoding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="419045004" />
                             <display value="Loss of consciousness (finding)" />
                         </valueCoding>
@@ -1263,7 +1263,7 @@ Message 3 - Second update
                 <status value="in-progress" />
                 <code>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="89666000" />
                         <display value="Cardiopulmonary resuscitation (procedure)" />
                     </coding>

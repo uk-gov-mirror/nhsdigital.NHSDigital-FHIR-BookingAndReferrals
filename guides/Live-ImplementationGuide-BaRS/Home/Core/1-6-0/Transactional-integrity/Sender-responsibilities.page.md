@@ -7,7 +7,7 @@ topic: Core-TransactionalIntegrity-Sender-1.6.0
 The frequency of retries and the duration of a retry period depends on the scenario and should not disrupt workflow. Exponential backoff is considered best practice however it is at the discretion of the sender to define how many times a retry is attempted.
 
 - retry in the event X-Request-ID and X-Correlation-ID is not in the response
-- retry in the event no OperationOutcome is in the body of the response
+- retry in the event an error response has no OperationOutcome in the body
 - retry when an OperationOutcome from a receiver contains one of the following values and response codes:
     - REC_TIMEOUT (408)
     - REC_TOO_MANY_REQUESTS (429)

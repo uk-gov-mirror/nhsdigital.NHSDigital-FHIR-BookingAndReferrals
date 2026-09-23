@@ -396,7 +396,7 @@
         </organization>
         <specialty>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
@@ -528,14 +528,14 @@
         </organization>
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
         </code>
         <specialty>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="408443003" />
             <display value="General medical practice" />
           </coding>
@@ -554,7 +554,7 @@
         <status value="active" />
         <category>
           <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category" />
+            <system value="http://terminology.hl7.org/CodeSystem/medication-statement-category" />
             <code value="outpatient" />
             <display value="Outpatient" />
           </coding>
@@ -576,7 +576,7 @@
         <dateAsserted value="2021-10-22" />
         <reasonCode>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="65363002" />
             <display value="Otitis media (disorder)" />
           </coding>
@@ -592,28 +592,28 @@
           </timing>
           <asNeededCodeableConcept>
             <coding>
-              <system value="https://termbrowser.nhs.uk" />
+              <system value="http://snomed.info/sct" />
               <code value="16001004" />
               <display value="Otalgia" />
             </coding>
           </asNeededCodeableConcept>
           <site>
             <coding>
-              <system value="https://termbrowser.nhs.uk" />
+              <system value="http://snomed.info/sct" />
               <code value="123851003" />
               <display value="Mouth region structure" />
             </coding>
           </site>
           <route>
             <coding>
-              <system value="https://termbrowser.nhs.uk" />
+              <system value="http://snomed.info/sct" />
               <code value="26643006" />
               <display value="Oral" />
             </coding>
           </route>
           <method>
             <coding>
-              <system value="https://termbrowser.nhs.uk" />
+              <system value="http://snomed.info/sct" />
               <code value="421984009" />
               <display value="Until finished" />
             </coding>
@@ -656,7 +656,7 @@
         <category value="medication" />
         <code>
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="372687004" />
             <display value="Amoxicillin" />
           </coding>
@@ -677,7 +677,7 @@
         <reaction>
           <manifestation>
             <coding>
-              <system value="https://termbrowser.nhs.uk" />
+              <system value="http://snomed.info/sct" />
               <code value="247472004" />
               <display value="Urticarial rash" />
             </coding>
@@ -776,7 +776,7 @@
         </category>
         <code>
 			<coding>
-				<system value="https://termbrowser.nhs.uk" />
+				<system value="http://snomed.info/sct" />
 				<code value="718941000000104" />
 				<display value="Patient choice" />
 			</coding>

@@ -86,7 +86,7 @@
 				</category>
 				<code>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="792891000000102"/>
 						<display value=" Inbound referral"/>
 					</coding>
@@ -211,7 +211,7 @@
 				<intent value="order"/>
 				<code>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="792891000000102"/>
 						<display value="Inbound referral"/>
 					</coding>
@@ -244,7 +244,7 @@
 				</verificationStatus>
 				<category>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="33962009"/>
 						<display value="Presenting complaint"/>
 					</coding>
@@ -351,7 +351,7 @@
 				</organization>
 				<specialty>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="408443003"/>
 						<display value="General medical practice"/>
 					</coding>
@@ -483,14 +483,14 @@
 				</organization>
 				<code>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="224608005"/>
 						<display value="Administrative healthcare staff"/>
 					</coding>
 				</code>
 				<specialty>
 					<coding>
-						<system value="https://termbrowser.nhs.uk"/>
+						<system value="http://snomed.info/sct"/>
 						<code value="408443003"/>
 						<display value="General medical practice"/>
 					</coding>

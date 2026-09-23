@@ -198,7 +198,7 @@
 				</category>
 				<code>
 					<coding>
-						<system value="https://termbrowser.nhs.uk" />
+						<system value="http://snomed.info/sct" />
 						<code value="60621009" />
 						<display value="Body mass index" />
 					</coding>
@@ -240,7 +240,7 @@
                 <intent value="order" />
                 <code>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="1659121000000100" />
                         <display value="Community Pharmacy Contraception Service (procedure)" />
                     </coding>
@@ -273,7 +273,7 @@
                 </verificationStatus>
                 <category>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="33962009" />
                         <display value="Presenting complaint" />
                     </coding>
@@ -302,7 +302,7 @@
                 <status value="active" />
                 <category>
                     <coding>
-                        <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category" />
+                        <system value="http://terminology.hl7.org/CodeSystem/medication-statement-category" />
                         <code value="outpatient" />
                         <display value="Outpatient" />
                     </coding>
@@ -324,7 +324,7 @@
                 <dateAsserted value="2024-08-20" />
                 <reasonCode>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="339871000000104" />
                         <display value="Supply of combined oral contraception (procedure)" />
                     </coding>
@@ -341,21 +341,21 @@
                     </timing>
                     <site>
                         <coding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="123851003" />
                             <display value="Mouth region structure" />
                         </coding>
                     </site>
                     <route>
                         <coding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="26643006" />
                             <display value="Oral" />
                         </coding>
                     </route>
                     <method>
                         <coding>
-                            <system value="https://termbrowser.nhs.uk" />
+                            <system value="http://snomed.info/sct" />
                             <code value="421984009" />
                             <display value="Until finished" />
                         </coding>
@@ -372,7 +372,7 @@
 						<numerator>
 							<value value="21" />
 							<unit value="Tablet" />
-							<system value="https://termbrowser.nhs.uk" />
+							<system value="http://snomed.info/sct" />
 							<code value="428673006" />
 						</numerator>
 						<denominator>
@@ -532,7 +532,7 @@
                 </organization>
                 <specialty>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>
@@ -622,7 +622,7 @@
                 </identifier>
 				<type>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="788007007" />
                         <display value="General practice service (qualifier value)" />
                     </coding>
@@ -671,14 +671,14 @@
                 </organization>
                 <code>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="224608005" />
                         <display value="Administrative healthcare staff" />
                     </coding>
                 </code>
                 <specialty>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>

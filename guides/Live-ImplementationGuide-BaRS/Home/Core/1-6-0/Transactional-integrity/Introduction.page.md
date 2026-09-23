@@ -10,7 +10,7 @@ There are two existing header items for requests currently available to allow Ba
 
 | Header           | Requirement  | Description                                                                                                                                   | Value                      |
 |------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| X-Correlation-ID | Required     | A globally unique identifier for the request that can be used to track related transactions across multiple systems.                          | string representing a GUID |
+| X-Correlation-ID | Required     | A globally unique identifier for the conversation that can be used to track related transactions across multiple systems.                          | string representing a GUID |
 | X-Request-ID     | Required     | A globally unique identifier for the request, used to de-duplicate repeated requests and to trace the request for support purposes if needed. | string representing a GUID |
 
 Transactional integrity is based on guidance in the [FHIR standard](https://www.hl7.org/fhir/http.html#custom). The header items are used as outlined below:

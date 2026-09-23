@@ -390,7 +390,7 @@
                 </organization>
                 <specialty>
                     <coding>
-                        <system value="https://termbrowser.nhs.uk" />
+                        <system value="http://snomed.info/sct" />
                         <code value="408443003" />
                         <display value="General medical practice" />
                     </coding>

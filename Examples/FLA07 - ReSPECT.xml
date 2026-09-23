@@ -15,7 +15,7 @@
   </category>
   <code>
     <coding>
-      <system value="https://termbrowser.nhs.uk" />
+      <system value="http://snomed.info/sct" />
       <code value="1107891000000106" />
       <display value=" Has Recommended Summary Plan for Emergency Care and Treatment (finding)" />
     </coding>

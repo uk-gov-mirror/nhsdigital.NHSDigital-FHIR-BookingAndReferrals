@@ -14,7 +14,7 @@
     </verificationStatus>
 	<category>
         <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="33962009" />
             <display value="Presenting complaint" />
         </coding>

@@ -19,6 +19,4 @@
 - name: 
   filename: DocumentReference-StandardPattern
 - name: 
-  filename: EndpointCatalogue-StandardPattern
-- name: 
   filename: Appointment-StandardPattern
