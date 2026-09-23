@@ -533,7 +533,7 @@
         <code>
           <!--    If populated then use SDS code    -->
           <coding>
-            <system value="https://termbrowser.nhs.uk" />
+            <system value="http://snomed.info/sct" />
             <code value="224608005" />
             <display value="Administrative healthcare staff" />
           </coding>
