@@ -27,7 +27,7 @@ The sequence of events occurs as follows:
 * the Sender requests the MessageDefinitions 
 * the Receiver indicates the use-case categories they support
 * the Sender reads and only engages in the use-case workflows supported
-* the Sender's request includes the use-case category code (the same code they read from the MessageDefinition), under ServiceRequest.category (referral) or Appointment.ServiceCategory (booking)
+* the Sender's request includes the use-case category code (the same code they read from the MessageDefinition), under ServiceRequest.category (referral) or Appointment.serviceCategory (booking)
 * the Receiver processes accordingly
 
 
