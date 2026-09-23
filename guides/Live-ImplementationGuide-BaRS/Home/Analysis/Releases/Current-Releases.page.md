@@ -2,10 +2,10 @@
 
 Product Link           | Version | Handle  | Phase    | State           | Release Date | Stability  | Change Log Link
 -----------------------|---------|---------|----------|-----------------|--------------|------------|-----------------
-Implementation Guide   | 1.12.0   | v1      | Live     | Current Release | 16/07/2026 | Stable     |{{pagelink:trn-General}}
-[FHIR Package](https://simplifier.net/packages/uk.nhsdigital.bars.r4/1.42.0) | 1.42.0| v1      | Live     | Current Release | 16/07/2026  | Stable     |
-{{pagelink:design-core-1.5.0, text:BaRS Core}}              | 1.6.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-core, text: BaRS Core Change Log}}
-[API Specification](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.5.0)    | 1.6.0   | v1      | Live     | Current Release | 16/07/2026  | Stable     |{{pagelink:trn-api}}
+Implementation Guide   | 1.12.1   | v1      | Live     | Current Release | 30/09/2026 | Stable     |{{pagelink:trn-General}}
+[FHIR Package](https://simplifier.net/packages/uk.nhsdigital.bars.r4/1.42.0) | 1.42.0| v1      | Live     | Current Release | 30/09/2026 | Stable     |
+{{pagelink:design-core-1.6.0, text:BaRS Core}}              | 1.6.0   | v1      | Live     | Current Release | 30/09/2026   | Stable     |{{pagelink:trn-core, text: BaRS Core Change Log}}
+[API Specification](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.6.0)    | 1.6.0   | v1      | Live     | Current Release | 30/09/2026 | Stable     |{{pagelink:trn-api}}
 {{pagelink: build-testing, text: TKW}}  | 1.0.21   | v1      | Live     | Current Release | 12/11/2025   | Stable     |{{pagelink:trn-tkw}}
 {{pagelink:application1, text:BaRS-APP1}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app1,text:BaRS APP1 Change Log}}
 {{pagelink:application2, text:BaRS-APP2}}   | 2.1.0   | v1      | Live     | Current Release | 16/07/2026   | Stable     |{{pagelink:trn-app2,text:BaRS APP2 Change Log}}
