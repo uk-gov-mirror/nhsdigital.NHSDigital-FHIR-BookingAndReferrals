@@ -9,7 +9,7 @@ topic: core-EndToEndWorkflow-Logging-1.6.0
 
 | Header                 | Requirement            | Description                                                  | Value                      |
 |------------------------|------------------------|--------------------------------------------------------------|----------------------------|
-| use-context | Required by the sender | Allows BaRS to route the message to the appropriate endpoint | Formatted string |
+| use-context | Required by the sender | Provides usage statistics for the BaRS Proxy | Formatted string |
 
 This header is for usage statistics for the BaRS Proxy for NHS England. It consists of a composite of 4 values from within the payload, in order. The sender MUST include this information. The receiver MUST ignore this header. The elements are:
 
