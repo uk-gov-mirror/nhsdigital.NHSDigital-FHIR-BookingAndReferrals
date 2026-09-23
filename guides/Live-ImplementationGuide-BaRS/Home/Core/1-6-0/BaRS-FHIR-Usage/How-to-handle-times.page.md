@@ -4,7 +4,8 @@ topic: core-FHIRUsage-Time-1.6.0
 
 ## {{page-title}}
 
-* All times MUST be in FHIR Instant format (```YYYY-MM-DDThh:mm:ss.sssssss+zz:zz```) 
+* All times MUST use the FHIR primitive type defined for the element. For example, `instant` (```YYYY-MM-DDThh:mm:ss.sssssss+zz:zz```) for `meta.lastUpdated`, and `dateTime` (```YYYY-MM-DDThh:mm:ss[.fraction][timezone]```) for `Appointment.start`, `Appointment.end`, and `Appointment.created`).
+
   * e.g. ```Year-Month-DayTHours:Minutes:Seconds.milliseconds+OffsetFromUTC``` 
   * e.g. ```2015-02-07T13:28:17.2398742+02:00```
   * *except* where specifically defined otherwise

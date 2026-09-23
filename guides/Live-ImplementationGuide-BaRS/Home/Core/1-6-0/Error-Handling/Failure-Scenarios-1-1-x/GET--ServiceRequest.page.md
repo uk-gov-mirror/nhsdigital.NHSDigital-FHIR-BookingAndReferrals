@@ -15,7 +15,7 @@ This section defines the failure scenarios for GET /ServiceRequest. As with GET 
   ![BaRS FHIR API end-to-end process](https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/FailureScenarios/SR-FailureScenarios-1.0.0.svg)
   
 ### Errors by parameter
-**path id in GET /ServiceRequest{id}**
+**path id in GET /ServiceRequest/{id}**
 
 | HTTP Status Code | HTTP Error Code  | Issue Code | Scenario                                                                                      | Source   |
 |------------------|------------------|------------|-----------------------------------------------------------------------------------------------|----------|

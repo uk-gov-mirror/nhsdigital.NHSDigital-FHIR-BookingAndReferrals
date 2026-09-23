@@ -15,7 +15,7 @@ This section defines the failure scenarios for GET /Appointment. There are two w
   ![BaRS FHIR API end-to-end process](https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/FailureScenarios/Appt-FailureScenarios-1.0.0.svg)
   
 ### Errors by parameter
-**path id in GET /Appointment{id}**
+**path id in GET /Appointment/{id}**
 
 | HTTP Status Code | HTTP Error Code  | Issue Code | Scenario                                                                                      | Source   |
 |------------------|------------------|------------|-----------------------------------------------------------------------------------------------|----------|
