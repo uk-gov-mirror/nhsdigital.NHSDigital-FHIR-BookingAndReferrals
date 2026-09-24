@@ -8,7 +8,7 @@ Every service receiving messages through BaRS will need their ServiceId and endp
 
 When a Sender wants to send a booking or referral using the BaRS Proxy, they will use a Service Discovery tool and select the Receiver's service in their system.  
 
-The Sender will include the ServiceId for the selected service in the HTTP Headers [NHSD-Target-identifier](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.3.0#overview--overview) it sends to the BaRS Proxy.  
+The Sender will include the ServiceId for the selected service in the HTTP Headers [NHSD-Target-identifier](https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.4.1#overview--overview) it sends to the BaRS Proxy.  
 
 The BaRS Proxy uses the ServiceId in the HTTP Header to reference the BaRS Endpoint Catalogue, find the specific endpoint for the service and transport the message to the correct destination. 
 

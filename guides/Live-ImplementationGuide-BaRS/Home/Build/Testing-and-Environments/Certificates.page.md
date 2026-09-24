@@ -15,61 +15,10 @@ All inbound connections to the BaRS API will be presented with environment speci
 
 | Certificate CN                   | Thumbprint                               | Parent CN                        | Parent Thumbprint                        | Environment |
 |----------------------------------|------------------------------------------|----------------------------------|------------------------------------------|-------------|
-| dev.api.service.nhs.uk           | 8c41b2d0080ff4f83ef4164078d17bab5ed53cbb | DigiCert TLS RSA SHA256 2020 CA1 | 1c58a3a8518e8759bf075b76b750d4f2df264fcd | Sandbox     |
 | int.api.service.nhs.uk           | 634680dfafcf3a6e229741ae7ad5b98dbe70d822 | DigiCert TLS RSA SHA256 2020 CA1 | 1c58a3a8518e8759bf075b76b750d4f2df264fcd | INT         |
 | api.service.nhs.uk               | 2673f9045ba6f8ff8b7b82a9046f9b599af27cab | DigiCert TLS RSA SHA256 2020 CA1 | 1c58a3a8518e8759bf075b76b750d4f2df264fcd | Prod        |
 | DigiCert TLS RSA SHA256 2020 CA1 | 1c58a3a8518e8759bf075b76b750d4f2df264fcd | DigiCert Global Root CA          | a8985d3a65e5e5c4b2d7d66d40c6dd2fb19c5436 | All         |
 | DigiCert Global Root CA          | a8985d3a65e5e5c4b2d7d66d40c6dd2fb19c5436 | N/A                              | N/A                                      | All         |
-
-### dev.api.service.nhs.uk (Digicert) 
-
-```
------BEGIN CERTIFICATE-----
-MIIH7zCCBtegAwIBAgIQCd1RZTdgwjlx2LOoB8pNHTANBgkqhkiG9w0BAQsFADBP
-MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE
-aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMjA2MjkwMDAwMDBa
-Fw0yMzA2MjkyMzU5NTlaMFQxCzAJBgNVBAYTAkdCMQ4wDAYDVQQHEwVMZWVkczEU
-MBIGA1UEChMLTkhTIERpZ2l0YWwxHzAdBgNVBAMTFmRldi5hcGkuc2VydmljZS5u
-aHMudWswggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQChdhQee1KNW6C/
-qUzRfgwLzxdXcLMusYrCR+dkiJiyVTy2JAP9iDwOqsJWeaxzXzXoPM+3ahq2m7c6
-CgAhuk8XHo3vhRfJzLehbQtzAgnz5YDevpI74gj2V/Wd7/QGu8Cgh9AoCtO5gfh8
-byju/V9eJArHxCE6huduBTp59y8Dth/VGWiDaOgYDauBOkSKdxVmPl1qZOv7cN/p
-wD4TyZxs0CrqUrkRT4WfvABrOaG7jLbeKKhVfMYXSJhPs1g7STJaOzvrRAwt1O83
-q4Objc3/oPnbbN1AyXlVyHI2exkxmNllYHRMogQMSFOpdj/g+zibw7tPpKDE49Xx
-YFtfGOUHusb2Fj7kYh7bevdOibrmzG+zT1l29VNzaYp0sFMSrHaCBVZ6Rw/q3BHV
-vRXfb+zpiSpmUG67FULKWQRCSKEBw7pfD1+cg8050PT+JnnhONjwzbwJMZjiibV7
-f0JGP0G2JX1sRSad+EBHPYd1is0SESFhfrkSm5pQxgTkxGFKhBC0fm3LSP6qhelz
-z1YIKupi66wC74dnV/YJkxOQ38r3uH0WTiZ8SL2Zd3Gd+1DPWXydvjfH94yQpOHj
-ihRhHlkn+uRynOBqcCTsZ+9xyOjAQ3AicSLAsK9V+YxK+mO1IatgnmafLGNWYAsK
-YpGS+BsOnS6Znecv9lFPcWWdTQsUpwIDAQABo4IDwDCCA7wwHwYDVR0jBBgwFoAU
-t2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFMa79aKSfMUaT2POYUTKkpfF
-mocAMG0GA1UdEQRmMGSCFmRldi5hcGkuc2VydmljZS5uaHMudWuCFnJlZi5hcGku
-c2VydmljZS5uaHMudWuCGnNhbmRib3guYXBpLnNlcnZpY2UubmhzLnVrghZkZXAu
-YXBpLnNlcnZpY2UubmhzLnVrMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggr
-BgEFBQcDAQYIKwYBBQUHAwIwgY8GA1UdHwSBhzCBhDBAoD6gPIY6aHR0cDovL2Ny
-bDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00LmNy
-bDBAoD6gPIY6aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNB
-U0hBMjU2MjAyMENBMS00LmNybDA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsG
-AQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwfwYIKwYBBQUHAQEE
-czBxMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wSQYIKwYB
-BQUHMAKGPWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU1JT
-QVNIQTI1NjIwMjBDQTEtMS5jcnQwCQYDVR0TBAIwADCCAXwGCisGAQQB1nkCBAIE
-ggFsBIIBaAFmAHYArfe++nz/EMiLnT2cHj4YarRnKV3PsQwkyoWGNOvcgooAAAGB
-r8Mt1gAABAMARzBFAiEA3y5VxP+JXtBoJdaQUf+DvWzfq7hfm7tSrKpDxLzr3LsC
-ID8AtMzjnVttILxLmAZFmr/Xq2tEM7ubqJprZjqmZtxBAHUANc8ZG7+xbFe/D61M
-bULLu7YnICZR6j/hKu+oA8M71kwAAAGBr8MtNwAABAMARjBEAiAhvkbK+nr8p1+s
-fTqfrslKaI0K5prTdt65yHRdhJdtdAIgKlEWGUSlCH7AwfQJ04Xxo1o+rJ1nyl8Y
-bD17Fmee4I0AdQCzc3cH4YRQ+GOG1gWp3BEJSnktsWcMC4fc8AMOeTalmgAAAYGv
-wy1YAAAEAwBGMEQCIBoJtWDLt+0gBNbbW+73bJtYnD2/eLGF+ASZO9NjrgdcAiBx
-UChWKBEH5ndm9j2MfiDfhb8CIkMDxYwl7cNU+owJhDANBgkqhkiG9w0BAQsFAAOC
-AQEAm/i6ZvIf03/3YgF9dWoSygDDuziv5u5CQu6Vn9ojHPN6y+zzF8V6fyrgjo2q
-+BILKe5AkhCak/YmBEKN4PcoLerCFmBS5F2GaJ0fYx4+BevaeauewMmXq3WrduAp
-QwmVtvBfY4MdvFTZ1afLxPbBoMduwjI/7F8Vsq9yPWdwSlkEXCb5v8mCcWqIOr6F
-mntXmZoNig+cWTWebyX3B/dVnYezQqcd2clM5yb3Tz/C4YPa/pHrXP4Uekskh9wm
-LrKCzc961OVITemj0KA6xkbeVNnXjRjyKiZS//iDRugZJf3yh5oTON9fqoVgV+bd
-9UWHkyVsonT2QQWayu4R2mb30g==
------END CERTIFICATE-----
-```
 
 ### int.api.service.nhs.uk (Digicert) 
 
@@ -171,10 +120,10 @@ ysWdIG7hl3g=
 
 ## Outbound
 
-All outbound connections from the BaRS API proxy to Receivers, with the exception of the Sandbox environment, will be secured using TLS-MA.
+All outbound connections from the BaRS API proxy to Receivers will be secured using TLS-MA.
 
 ### PTL
-The PTL environments will present a certificate issued by the NHS PTL Root Authority, as the RootCA. This does not include the Sandbox environment.
+The PTL environments will present a certificate issued by the NHS PTL Root Authority, as the RootCA.
 
 Details of the certificate chain described in the table below can be found in the [How to Connect Guidance](https://digital.nhs.uk/services/path-to-live-environments/integration-environment#rootca-and-subca-certificates).
 
