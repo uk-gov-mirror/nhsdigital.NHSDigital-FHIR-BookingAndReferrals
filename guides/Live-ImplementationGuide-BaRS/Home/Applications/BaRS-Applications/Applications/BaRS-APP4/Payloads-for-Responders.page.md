@@ -17,7 +17,7 @@ For Interim Validation Response example bundles see:
 <br>
 
 ### MessageHeader Resource
-For detailed information on the use of MessageHeader please refer to the {{pagelink:core-SPMessageHeader-1.5.0, text:Standard Pattern - Message Header}}. 
+For detailed information on the use of MessageHeader please refer to the {{pagelink:core-SPMessageHeader-1.6.0, text:Standard Pattern - Message Header}}. 
 
 The MessageHeader resource in the Interim Validation Response should have the following resource elements set as follows:
 * **MessageHeader.eventCoding** - **must** be populated with 'servicerequest-response'
@@ -61,12 +61,12 @@ For Validation Response
 example bundles see:
 * [Validation Response - CAS to 999 Finished](https://simplifier.net/nhsbookingandreferrals/76a303c5-3260-4a80-96b9-5c7995514bc1)
 * [Validation Response - CAS to 999 Finished Inc third encounter case ID for C1/C2 outcome](https://simplifier.net/nhsbookingandreferrals/256a050f-9896-4b32-95ff-62f044722c83)
-* [Validation Response - Falls to 999 Finished](https://simplifier.net/nhsbookingandreferrals/76a303c5-3260-4a80-96b9-5c7995514bd2)
+* [Validation Response - Falls to 999 Finished](https://simplifier.net/nhsbookingandreferrals/76a303c5-3260-4a80-96b9-5c7995514bc1-duplicate-2)
 
 * For additional example bundles please check [BaRS Example Bundles](https://simplifier.net/nhsbookingandreferrals/~resources?category=Example&exampletype=Bundle&sortBy=LastUpdateDate_desc)
 
 ### MessageHeader Resource
-For detailed information on the use of MessageHeader please refer to the {{pagelink:core-SPMessageHeader-1.5.0, text:Standard Pattern - Message Header}} for more information. 
+For detailed information on the use of MessageHeader please refer to the {{pagelink:core-SPMessageHeader-1.6.0, text:Standard Pattern - Message Header}} for more information. 
 
 The MessageHeader resource in the Interim Validation Response should have the following resource elements set as follows:
 * **MessageHeader.eventCoding** - **must** be populated with 'servicerequest-response'

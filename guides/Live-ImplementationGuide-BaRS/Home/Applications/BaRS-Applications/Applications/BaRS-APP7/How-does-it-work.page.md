@@ -22,7 +22,7 @@ During a referral workflow where booking is required, there are two separate pro
 
 The first part of this process involves the **sender** making a request to the **receiver** for slots that match the search criteria. This is a "searching" request that requires the response body to include a "searchset" bundle resource.
 
-The search parameters are defined <a href="https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.3.0#api-Slots-getSlots" target="_blank">on the BaRS API specification documentation</a>.
+The search parameters are defined <a href="https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir/v1.6.0#api-Slots-getSlots" target="_blank">on the BaRS API specification documentation</a>.
 
 
 
@@ -78,7 +78,7 @@ X-Correlation-Id = <GUID_00002>
 
 ### Make a booking
 
-Making a booking for this Application follows the {{pagelink:Core-StandardPattern-1.5.0, text:standard pattern for BaRS Composite Messages}}.
+Making a booking for this Application follows the {{pagelink:Core-StandardPattern-1.6.0, text:standard pattern for BaRS Composite Messages}}.
 
 The Message Definition that defines this payload for this Application is: [BARS Message Definition - Booking Request](https://simplifier.net/nhsbookingandreferrals/messagedefinition-bars-messagedefinition-booking-request)
 
@@ -146,7 +146,7 @@ This diagram illustrates the workflow and interactions of a booking cancellation
 
 <img src="https://raw.githubusercontent.com/NHSDigital/NHSDigital-FHIR-BookingAndReferrals/main/BaRS-Images/WorkFlows/BookingCancel-APP7-MVP-1.0.0-alpha.svg" width="1000"></img></a>
 
-To cancel a booking this Application follows the {{pagelink:core-SPCancellation-1.5.0, text:standard pattern for BaRS cancellation}}. 
+To cancel a booking this Application follows the {{pagelink:core-SPCancellation-1.6.0, text:standard pattern for BaRS cancellation}}. 
 
 The Message Definition that defines the payload for this Application is: [BARS Message Definition - Cancel Booking Request](https://simplifier.net/nhsbookingandreferrals/messagedefinition-barsmessagedefinitionbookingrequestcancelled)
 
